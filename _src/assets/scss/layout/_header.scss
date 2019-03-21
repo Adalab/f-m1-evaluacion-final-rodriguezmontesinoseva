@@ -1,4 +1,6 @@
 .header-general{
+    width: 320px;
+    height: 568px;
     min-height: 100vh;
     background: url(../images/cover.jpg) center no-repeat;
     background-size: cover;
@@ -29,4 +31,29 @@
     font-size:$font-sizeRegular;
     font-weight: normal;
     text-align: center;
+}
+.btn-menu{
+    width: 44px;
+    height: 44px;
+    background-color: $blueMenu;
+    position:fixed;
+}
+.ico-menu{
+    width: 16px;
+  height: 14px;
+  object-fit: contain;
+  position:fixed;
+}
+.btn-nextsection{
+    width: 45px;
+    height: 45px;
+    margin: 45px 137px;
+    border-radius: 22.5px;
+    background-color:$whiteSnow;
+}
+.ico-nextsection{
+  width: 20px;
+  height: 11.7px;
+  object-fit: contain;
+  background-color: $orangeBright;
 }
