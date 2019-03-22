@@ -10,7 +10,7 @@
 }
 .title-article{
     font-family: $fontRobotoSlab;
-    font-size: $font-sizeMed;
+    font-size: $font-sizeMedMax;
     line-height: 30px;
     color:$blackBatman;
     margin-bottom: 15px;
@@ -21,4 +21,18 @@
     line-height: 30px;
     color:$greyBrown;
     margin-bottom: 30px;  
+}
+.btn-go{
+  width: 76px;
+  height: 45px;
+  border-radius: 22.5px;
+  border: solid 2px $orangeBright;
+  background-color: $whiteSnow;
+}
+
+.txt-go{
+    font-family: $fontRoboto;
+    font-size:$font-sizeMed;
+    line-height: 45px;
+    color: $orangeBright;
 }
