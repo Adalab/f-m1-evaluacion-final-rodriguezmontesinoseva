@@ -26,11 +26,23 @@
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 70px;
-    grid-auto-flow: column;
+    // grid-auto-flow: column;
     align-self: center;
+    @media all and (min-width: 768px){
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 70px;
+        
+    }
 }
 .item-article2{
     text-align: center;
+    padding: 10px;
+}
+.item4-article2{
+    text-align: center;
+    @media all and (min-width: 768px){
+        grid-column: span 3;
+    }
 }
 .btn-more{
     // width: 184px;
