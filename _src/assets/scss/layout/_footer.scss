@@ -9,7 +9,6 @@
     font-family: $fontRoboto;
     font-size: $font-sizeRegular;
     line-height: 30px;
-    color:$whiteSnow;
     text-align: center;
     text-transform: uppercase;
     margin-top: 60px;
@@ -17,8 +16,23 @@
 
 .nav-list2{
     margin:30px 0 ;
-    
+ 
 }
+.list-link {
+     text-decoration: none;
+     color:$whiteSnow;  
+}
+.list-link:hover{
+    text-decoration: underline;
+}
+
+.list-link:active{
+    color:$whiteSnow
+}
+.list-link:visited{
+    color:$whiteSnow
+}
+
 .copyright{
     font-family: $fontRoboto;
     font-size: $font-sizeMin;
