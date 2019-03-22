@@ -24,18 +24,16 @@
     margin-bottom: 30px;  
 }
 .btn-go{
-  width: 76px;
-  height: 45px;
   border-radius: 22.5px;
   border: solid 2px $orangeBright;
   background-color: $whiteSnow;
+
+  text-decoration:none;
+  font-family: $fontRoboto;
+  font-size:$font-sizeMed;
+  line-height: 45px;
+  color: $orangeBright;
+
+  padding: 10px 23px;
 }
 
-.txt-go{
-    text-decoration:none;
-    font-family: $fontRoboto;
-    font-size:$font-sizeMed;
-    line-height: 45px;
-    color: $orangeBright;
-    
-}

@@ -9,7 +9,7 @@
 }
 
 .title{
-    margin: 284px 15px 0;
+    margin: 50vh 15px 0;
     color: $whiteSnow;
     line-height: 55px;
     font-family: $fontRobotoSlab;
@@ -44,11 +44,11 @@
   height: 14px;
 }
 .btn-nextsection{
-    width: 45px;
-    height: 45px;
     border-radius: 22.5px;
     background-color:$whiteSnow;
     margin-bottom: 53px;
+    padding: 12px;
+    box-shadow: 0 0 2px $blackBatman;
     &:focus{
         outline:none
     }

@@ -25,7 +25,7 @@
     margin: 45px 54px 0 50px;
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 50px;
+    grid-template-rows: 1fr 1fr 1fr 70px;
     grid-auto-flow: column;
     align-self: center;
 }
@@ -33,16 +33,15 @@
     text-align: center;
 }
 .btn-more{
-    width: 184px;
-    height: 45px;
+    // width: 184px;
+    // height: 45px;
     border-radius: 22.5px;
     background-color:$orangeBright;
-   ;
-}
-.txt-more{
+
     text-decoration:none;
     font-family: $fontRoboto;
     font-size:$font-sizeMed;
     line-height: 45px;
     color: $whiteSnow;
+    padding: 10px 25px;
 }

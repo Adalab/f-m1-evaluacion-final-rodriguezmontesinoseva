@@ -7,11 +7,12 @@
 }
 
 .btn-top{
-    width: 45px;
-    height: 45px;
     border-radius: 22.5px;
     background-color:$whiteSnow;
     margin-top: -25px;
+    padding: 10px;
+    padding: 8px 13px;
+    box-shadow: 0 0 2px $blackBatman;
     &:focus{
         outline:none
     }
