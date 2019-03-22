@@ -1,13 +1,24 @@
 .main-art1{
-    height: 376px;
-    width: 320px;
-    background-color: yellow;
+    padding: 30px 15px 40px;
 }
 .pre-title-article{
-    width: 90px;
-    height: 30px;
-    font-family: $font-sizeRegular;
+    font-family: $fontRoboto;
     font-size: $font-sizeMin;
     line-height: 30px;
     color:$blueLight;
+    margin-bottom: 1px;
+}
+.title-article{
+    font-family: $fontRobotoSlab;
+    font-size: $font-sizeMed;
+    line-height: 30px;
+    color:$blackBatman;
+    margin-bottom: 15px;
+}
+.text-article{
+    font-family: $fontRoboto;
+    font-size:$font-sizeRegularMax;
+    line-height: 30px;
+    color:$greyBrown;
+    margin-bottom: 30px;  
 }
