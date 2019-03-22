@@ -39,11 +39,19 @@
   font-size:$font-sizeMed;
   line-height: 45px;
   color: $orangeBright;
+  transition: background-color ease-out 1s;
 
   padding: 10px 23px;
+
+  &:hover{
+    background-color:$orangeLight;
+  }
+
   @media all and (min-width: 1024px){
     padding: 10px 50px;
 
   }
+
 }
+
 
