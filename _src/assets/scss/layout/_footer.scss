@@ -1,5 +1,35 @@
 .main-footer{
-    height: 376px;
-    width: 320px;
-    background-color: pink;
+    background-color: $blueDark;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.nav-list1{
+    font-family: $fontRoboto;
+    font-size: $font-sizeRegular;
+    line-height: 30px;
+    color:$whiteSnow;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.nav-list2{
+    margin:30px 0 ;
+    
+}
+.copyright{
+    font-family: $fontRoboto;
+    font-size: $font-sizeMin;
+    line-height: 30px;
+    color:$whiteSnow;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.redheart {
+    color:#ff0000; 
+    font-size:14px;
+    font-family:'arial unicode MS', arial, geneva, sans-serif; 
 }
