@@ -30,8 +30,18 @@
     align-self: center;
 }
 .item-article2{
-    // display:flex;
-    // justify-content: center;
-    // align-items: center;
     text-align: center;
+}
+.btn-more{
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color:$orangeBright;
+}
+.txt-more{
+    text-decoration:none;
+    font-family: $fontRoboto;
+    font-size:$font-sizeMed;
+    line-height: 45px;
+    color: $whiteSnow;
 }
