@@ -1,5 +1,11 @@
 .main-art1{
     padding: 30px 15px 40px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box-art1{
+    max-width: 600px;
 }
 .pre-title-article{
     font-family: $fontRoboto;
@@ -35,5 +41,9 @@
   color: $orangeBright;
 
   padding: 10px 23px;
+  @media all and (min-width: 1024px){
+    padding: 10px 50px;
+
+  }
 }
 
