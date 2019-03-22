@@ -49,11 +49,14 @@
     border-radius: 22.5px;
     background-color:$whiteSnow;
     margin-bottom: 53px;
+    &:focus{
+        outline:none
+    }
 }
 .ico-nextsection{
   width: 20px;
   height: 11.7px;
-  object-fit: contain;
+//   object-fit: contain;
   color: $orangeBright;
 
 }
