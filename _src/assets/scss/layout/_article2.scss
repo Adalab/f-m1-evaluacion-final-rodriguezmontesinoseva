@@ -1,5 +1,37 @@
 .main-art2{
-    height: 376px;
-    width: 320px;
-    background-color: blue;
+    padding: 30px 15px 40px;
+    background-color: $blueIce;
+}
+.title-align{
+    text-align: center;
+}
+.subtitle-article2{
+    font-family: $fontRobotoSlab;
+    font-weight: bold;
+    font-size: $font-sizeRegularMax;
+    line-height: 30px;
+    color:$blackBatman;
+    text-align: center;
+}
+.text-article2{
+    font-family: $fontRoboto;
+    font-size:$font-sizeRegularMax;
+    line-height: 30px;
+    color:$blackBatman;
+    margin-bottom: 30px;
+}
+
+.container-article2{
+    margin: 45px 68px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    align-self: center;
+}
+.item-article2{
+    // display:flex;
+    // justify-content: center;
+    // align-items: center;
+    text-align: center;
 }

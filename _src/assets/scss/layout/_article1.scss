@@ -10,6 +10,7 @@
 }
 .title-article{
     font-family: $fontRobotoSlab;
+    font-weight: bold;
     font-size: $font-sizeMedMax;
     line-height: 30px;
     color:$blackBatman;
@@ -31,8 +32,10 @@
 }
 
 .txt-go{
+    text-decoration:none;
     font-family: $fontRoboto;
     font-size:$font-sizeMed;
     line-height: 45px;
     color: $orangeBright;
+    
 }
