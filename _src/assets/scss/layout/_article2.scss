@@ -56,4 +56,11 @@
     line-height: 45px;
     color: $whiteSnow;
     padding: 10px 25px;
+
+    transition: background-color ease-out 1s, color ease-out 1s, border ease-out 1s;
+    &:hover{
+        background-color:$whiteSnow;
+        color: $orangeBright;
+        border: solid 2px $orangeBright;
+      }
 }

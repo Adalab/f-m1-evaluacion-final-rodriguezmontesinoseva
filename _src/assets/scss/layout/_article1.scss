@@ -39,12 +39,15 @@
   font-size:$font-sizeMed;
   line-height: 45px;
   color: $orangeBright;
-  transition: background-color ease-out 1s;
+  transition: background-color ease-out 1s,color ease-out 1s, border ease-out 1s;
 
   padding: 10px 23px;
 
   &:hover{
-    background-color:$orangeLight;
+    background-color:$orangeBright;
+    color: $whiteSnow;
+    border: solid 2px $whiteSnow;
+
   }
 
   @media all and (min-width: 1024px){
