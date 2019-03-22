@@ -4,9 +4,11 @@
     align-items: center;
     flex-direction: column;
 }
+
 .box-art1{
     max-width: 600px;
 }
+
 .pre-title-article{
     font-family: $fontRoboto;
     font-size: $font-sizeMin;
@@ -14,6 +16,7 @@
     color:$blueLight;
     margin-bottom: 1px;
 }
+
 .title-article{
     font-family: $fontRobotoSlab;
     font-weight: bold;
@@ -22,6 +25,7 @@
     color:$blackBatman;
     margin-bottom: 15px;
 }
+
 .text-article{
     font-family: $fontRoboto;
     font-size:$font-sizeRegularMax;
@@ -29,18 +33,17 @@
     color:$greyBrown;
     margin-bottom: 30px;  
 }
+
 .btn-go{
   border-radius: 22.5px;
   border: solid 2px $orangeBright;
   background-color: $whiteSnow;
-
   text-decoration:none;
   font-family: $fontRoboto;
   font-size:$font-sizeMed;
   line-height: 45px;
   color: $orangeBright;
   transition: background-color ease-out 1s,color ease-out 1s, border ease-out 1s;
-
   padding: 10px 23px;
 
   &:hover{
@@ -52,9 +55,7 @@
 
   @media all and (min-width: 1024px){
     padding: 10px 50px;
-
   }
-
 }
 
 
