@@ -22,10 +22,10 @@
 }
 
 .container-article2{
-    margin: 45px 68px;
+    margin: 45px 54px 0 50px;
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 50px;
     grid-auto-flow: column;
     align-self: center;
 }
@@ -37,6 +37,7 @@
     height: 45px;
     border-radius: 22.5px;
     background-color:$orangeBright;
+   ;
 }
 .txt-more{
     text-decoration:none;
