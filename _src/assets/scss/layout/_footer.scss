@@ -3,6 +3,7 @@
     display:flex;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .btn-top{
@@ -85,12 +86,16 @@
     text-transform: uppercase;
     margin-bottom: 45px;
     // margin-top: 45px;
+    @media all and (min-width: 768px){
+       text-align:left; 
+    }
+
 }
 
-// .nav-list2{
-//     margin:30px 0 ;
+//  .nav-list2{
+//      margin:30px 0 ;
  
-// }
+//  }
 .list-link {
      text-decoration: none;
      color:$whiteSnow;  
@@ -112,14 +117,15 @@
     line-height: 30px;
     color:$whiteSnow;
     text-align: center;
-    padding-bottom: 45px;
+    // padding-bottom: 20px;
     @media all and (min-width: 768px){
         order: -1;
+        text-align: left;
     }
 }
 
 .redheart {
-    color:#ff0000; 
-    font-size:14px;
-    font-family:'arial unicode MS', arial, geneva, sans-serif; 
+    color:$redHeart; 
+    // font-size:14px;
+    // font-family:'arial unicode MS', arial, geneva, sans-serif; 
 }
