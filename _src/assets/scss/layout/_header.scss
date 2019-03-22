@@ -20,6 +20,7 @@
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     height: 100%;
     width: 100%;
+
     @media all and (min-width: 768px){
       font-size: $font-sizeTitleMid;
       line-height: 106px
@@ -39,6 +40,7 @@
     font-size:$font-sizeRegular;
     font-weight: normal;
     text-align: center;
+
     @media all and (min-width: 768px){
       font-size: $font-sizeMedMax;
     }
@@ -50,10 +52,12 @@
     position:fixed;
     padding: 15px;
 }
+
 .ico-menu{
   width: 16px;
   height: 14px;
 }
+
 .btn-nextsection{
     border-radius: 22.5px;
     background-color:$whiteSnow;
@@ -64,10 +68,9 @@
         outline:none
     }
 }
+
 .ico-nextsection{
   width: 20px;
   height: 11.7px;
-//   object-fit: contain;
   color: $orangeBright;
-
 }
