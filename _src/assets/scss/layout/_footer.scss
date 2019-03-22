@@ -3,9 +3,28 @@
     display:flex;
     flex-direction:column;
     justify-content: center;
+    align-items: center;
+}
+
+.btn-top{
+    width: 45px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color:$whiteSnow;
+    margin-top: -25px;
+    &:focus{
+        outline:none
+    }
+}
+.ico-top{
+  width: 20px;
+  height: 24px;
+  color: $orangeBright;
+
 }
 
 .nav-list1{
+    list-style: none;
     font-family: $fontRoboto;
     font-size: $font-sizeRegular;
     line-height: 30px;
