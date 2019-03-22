@@ -16,10 +16,29 @@
         outline:none
     }
 }
+
+@keyframes ontop {
+    from {
+    //   opacity: 0;
+    //   transform: scale(1.5);
+      transform: translateY(-3px);
+    }
+    to {
+    //   opacity: 1;
+    //   transform: scale(1);
+      transform: translateY(3px);
+
+    }
+  }
+
 .ico-top{
   width: 20px;
   height: 24px;
   color: $orangeBright;
+  animation-name: ontop;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+//   animation-timing-function: steps(3);
 
 }
 .footer-nav{
