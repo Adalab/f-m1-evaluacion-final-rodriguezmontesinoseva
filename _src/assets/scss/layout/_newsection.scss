@@ -1,0 +1,16 @@
+.new-section{
+background-color: $orangeBright;
+color:$whiteSnow;
+text-align: center;
+@media all and (min-width: 768px){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color:  $blueDark;
+}
+}
+
+.link{
+    color:$whiteSnow;
+}
